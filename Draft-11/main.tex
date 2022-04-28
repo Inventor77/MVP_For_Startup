@@ -1,0 +1,195 @@
+\documentclass[paper=a4, fontsize=11pt]{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage{fourier}
+
+\usepackage[english]{babel}															% English language/hyphenation
+\usepackage[protrusion=true,expansion=true]{microtype}	
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage[pdftex]{graphicx}	
+\usepackage{url}
+
+
+%%% Custom sectioning
+\usepackage{sectsty}
+\allsectionsfont{\centering \normalfont\scshape}
+
+\usepackage{tabularx}
+%%% Custom headers/footers (fancyhdr package)
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead{}											% No page header
+\fancyfoot[L]{}											% Empty 
+\fancyfoot[C]{}											% Empty
+\fancyfoot[R]{\thepage}									% Pagenumbering
+\renewcommand{\headrulewidth}{0pt}			% Remove header underlines
+\renewcommand{\footrulewidth}{0pt}				% Remove footer underlines
+\setlength{\headheight}{13.6pt}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+%%% Equation and float numbering
+\numberwithin{equation}{section}		% Equationnumbering: section.eq#
+\numberwithin{figure}{section}			% Figurenumbering: section.fig#
+\numberwithin{table}{section}				% Tablenumbering: section.tab#
+
+
+%%% Maketitle metadata
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\title{
+		%\vspace{-1in} 	
+		\usefont{OT1}{bch}{b}{n}
+		\normalfont \normalsize \textsc{National Institute Of Technology Raipur} \\ [25pt]
+		\horrule{0.5pt} \\[0.4cm]
+		\huge Minimum Viable Product  \\
+		\horrule{2pt} \\[0.5cm]
+}
+\author{
+		%\normalfont 								\normalsize
+        Shreedutt Dixit 19111056\\6th Semester, 
+        Basic Entrepreneurship\\ Biomedical Engineering Department\\	
+        Email: Shreedutt77@gmail.com
+        \normalsize
+}
+
+\date{}
+
+
+%%% Begin document
+
+\begin{document}
+\maketitle
+\begin{flushright}
+    Guided by :\\
+    Saurabh Gupta Sir
+\end{flushright}
+
+\noindent\rule{\textwidth}{1pt}
+\begin{abstract}
+
+    \begin{center}
+        \Large{\textbf{Abstract}}\\
+        
+    \end{center}
+
+    \Large { A minimum viable product (MVP) is a Lean Startup concept that emphasizes the importance of learning in the development of new products. An MVP, according to Eric Ries, is the version of a new product that allows a team to gather the most amount of verified learning about customers with the least amount of effort.\\
+    This verified knowledge comes in the form of whether or not your buyers will buy your product.
+    A crucial tenet of the MVP concept is that you create an actual product (which might be as simple as a landing page or a service that appears to be automated but is entirely manual behind the scenes) that you can give to clients and monitor their actual behavior with it. 
+    \newpage Observing what people do with a product rather than asking them what they would do is far more reliable.\\
+    The primary advantage of an MVP is that it allows you to learn about your customers' interest in your product without fully developing it. The sooner you can determine whether your product will be appealing to customers, the less time and money you will waste on a product that will not succeed in the market. }
+\end{abstract}
+
+\newpage
+\textbf{TABLE OF CONTENT}\\
+\rule{\textwidth}{1pt}
+\begin{enumerate}
+    \item Introduction
+    \item Purpose
+    \item Define Minimum Viable Product
+    \begin{enumerate}
+        \item Make sure your MVP is aligned with your company's goals.
+        \item Begin by identifying specific problems or enhancements you want to provide for your user persona.
+        \item Convert your MVP's functionality into a development strategy.
+    \end{enumerate}
+    \item Myths or facts
+    \begin{enumerate}
+        \item A minimum viable product (MVP) is a small product.
+        \item An MVP is a product that outperforms the competition in terms of features.
+        \item A minimum viable product (MVP) is a low-cost version of a product.
+    \end{enumerate}
+    \item  Examples of the Minimum Viable Product
+\end{enumerate}
+\rule{\textwidth}{1pt}
+\newpage
+\Large
+\section{Introduction}
+An MVP (minimum viable product) is a basic, launchable version of a product that includes only the most essential features (which define its value proposition). An MVP is created with the goal of reducing time to market, attracting early adopters, and achieving product-market fit from the start.\\
+When the MVP is released, the first round of feedback is expected. Based on this feedback, the company will continue to fix bugs and add new features suggested by early adopters.
+The MVP method allows for:
+\begin{enumerate}
+    \item Making an early market entry that results in a competitive advantage.
+    \item Allowing for early testing of the concept with actual users to determine whether the product is capable of solving their problems efficiently.
+    \item Working efficiently toward the creation of a fully-fledged product that incorporates user feedback and suggestions.
+\end{enumerate}
+Scaling is a lengthy process that necessitates numerous experiments. The secret to product scale is a good start, which often means creating a minimum viable product, or MVP. Many world-famous companies, such as Dropbox and Uber, began as MVPs and grew to become multibillion-dollar enterprises while avoiding unnecessary costs and saving valuable time. They are now excellent examples of minimum viable products for validating a startup idea and creating a product that people adore.
+
+\newpage
+
+\section{Purpose}
+Eric Ries, who popularised the term "minimum viable product" as part of his Lean Startup methodology, defines an MVP as "the version of a new product that allows a team to collect the most amount of validated learning about customers with the least amount of effort."\\
+A company may decide to create and release a minimum viable product because its product team wishes to:
+\begin{enumerate}
+    \item Release a product as soon as possible to the market.
+    \item Before committing a large budget to the full development of a product, test it with real users.
+    \item Discover what works and what doesn't with the company's target market.
+\end{enumerate}
+
+Learn what resonates with the company's target market and what doesn't. In addition to allowing your company to validate a product idea without building the entire product, an MVP can also help minimise the time and resources you might otherwise commit to building a product that will fail.\\
+MVP is a key component of a successful experimentation strategy for a team. They believe that their customers have a need, and that the product that the team is developing will meet that need. The team then gives something to those customers in order to see if they will actually use the product to meet their needs. The team decides whether to continue, change, or cancel work on the product based on the results of this experiment.
+\pagebreak
+
+\section{Define Minimum Viable Product}
+Penetration rates can be more important than pixel-perfect design and full functionality in the early days of a startup. How can you tell if a product solves your target audience's problems without wasting time and money? How do you know if the concept is worth investors' time? This is where the MVP (minimum viable product) concept comes into play. It has aided millions of lean startups in bringing their concepts to life.
+How do one go about creating a minimum viable product, and how will team know when it's ready to go live? Here are a few tactical steps to consider.
+\subsection{Make sure your MVP is aligned with your company's goals.}
+The first step in developing your MVP is to ensure that it will align with your team's or company's strategic goals before deciding which features to build.\\
+What are the objectives? Are you aiming for a revenue figure in the next six months? Do you have a limited amount of money? These considerations may influence whether or not now is the right time to start working on a new MVP.
+Also, consider what this minimum viable product will be used for. Will it attract new users in a market that is adjacent to your current product's market? This MVP plan might be strategically viable if that is one of your current business objectives.\\
+However, if your company's current priority is to continue focusing on its core markets, you may want to put this idea on hold and instead focus on an MVP that provides new functionality to existing customers.
+\newpage
+\subsection{Begin by identifying specific problems or enhancements you want to provide for your user persona.}
+You can start thinking about the specific solutions you want your MVP to offer users now that you've determined your MVP plans align with your business objectives. These solutions, which you might write up as user stories, epics, or features, don't represent the product's overall vision; rather, they're subsets of it. Remember that your MVP can only have a limited amount of functionality.
+When deciding which limited functionality to include in your MVP, you'll need to be strategic. You can make these choices based on a variety of factors, including:
+\begin{enumerate}
+    \item User testing.
+    \item Analyze the competition.
+    \item When you receive user feedback, how quickly you'll be able to iterate on certain types of functionality.
+    \item The relative costs of putting the various user stories or epics into action.
+\end{enumerate}
+\newpage
+
+\subsection{Convert your MVP's functionality into a development strategy.}
+Now that you've weighed the strategic factors above and decided on the limited functionality you want for your MVP, it's time to turn your ideas into a development plan.
+It's important to remember that the MVP stands for Minimum Viable Product. That is, it must enable your customers to complete a task or project in its entirety, as well as provide a high-quality user experience. A user interface with a lot of half-built tools and features isn't an MVP. It must be a functioning product that your company can sell.
+\newpage
+\section{Myths or facts}
+It's crucial to know what a minimum viable product isn't before you can understand what it is. Only when used correctly can an MVP be a powerful tool. Let's go over some common misconceptions that can lead to your MVP going in the wrong direction so you don't kill your startup before it even gets off the ground.
+\subsection{A minimum viable product (MVP) is a small product.}
+Many startups have the wrong idea about what an MVP is supposed to accomplish. As a result, they devote time and resources to rushing a half-baked product to market.\\
+\textbf{Fact:} An MVP isn't really about the product at all. "An MVP is a process, not a product," says Eric Ries. A learning tool is a minimum viable product. It's a process of developing the best solution to your target market's problem, not a finished product. In business, an MVP is essential because it allows you to share a concept for a product and test it with your target audience.
+\subsection{An MVP is a product that outperforms the competition in terms of features.}
+Some companies believe that their MVPs should have a lot of features. They believe that a variety of features will set them apart from the competition.
+\\
+\textbf{Fact:} You should not wait until your product is finished before releasing it. Limit your functionality and put it to the test. Multiple features take longer to develop, and you never know whether or not they'll be popular with users. According to Eric Ries, you should build software with 20\% of the features that 80\% of your customers will use. Remember that you're not creating a fantastic product; you're gathering feedback from customers.
+\subsection{A minimum viable product (MVP) is a low-cost version of a product.}
+There should be a minimum set of features in a minimum viable product. However, some businesses sacrifice quality in order to deliver it faster.\\
+\textbf{Fact:} An MVP should never be of poor quality. Even if it only has one feature, an MVP should be a fully functional product. Who wants to use your platform if it's prone to crashes and bugs? "If you want to go fast, start with a quality focus," says Steve McConnell.
+\pagebreak
+\section{Examples of the Minimum Viable Product}
+MVPs are a personal choice. Every business has its own definition of a minimum viable product. Let's take a look at how well-known companies have done with MVP development to help you choose your own path. If you're curious how this would work in practise, consider how two well-known brands launched successful MVPs.
+\subsection{Airbnb}
+Airbnb began as a simple website created by three founders who assumed that people would be unable to find a place to stay during the 2007 Industrial Design Society of America Conference in San Francisco. So they piled all of their beds in their small apartment and created a simple web page with an ad for renting an air bed. They soon had three visitors who wanted to stay in their apartment with them. They began looking for ways to redesign the platform after proving that their idea wasn't a waste of time and money. Airbnb now has 150 million users, 4 million listings, and a market capitalization of \$30 billion. It offers not only accomodation but provides users with lists of restaurants and events in destination cities along with feedback and ratings.
+
+\subsection{Spotify}
+It seemed impossible to survive with a new music streaming platform in the early 2000s, when media piracy sites like Napster and The Pirate Bay were all over the internet. When Napster went away, however, Daniel Ek, the co-founder of Spotify, saw an opportunity to create a new platform where users could instantly get legal music for a small fee. Daniel Ek and Martin Lorentzon created an MVP (minimum viable product) that only did one thing: stream music. Family and friends were the first to try out this app. When Daniel and Martin realised their concept was a hit, they decided to show it to a larger audience. After users accepted Spotify, the company signed more artists and expanded to new countries.Today, Spotify is an on-demand service for music, podcasts, and video streaming that’s available in 79 countries and had 83 million paid subscribers as of June 2018.
+
+\subsection{Uber}
+It's difficult to recall a time when Uber didn't exist, as the company now has 42 million users. When Uber was first introduced to iPhone users in San Francisco in 2010, the company had only just begun its transformation into what it is now. Uber's initial focus was solely on connecting users with cab drivers and processing in-app payments. UberCab was the name of the app, and it had a simple user interface. Travis Kalanick and Garrett Camp began working on a better product only after they were certain that their idea would work for a larger audience. Uber has added GPS, real-time tracking, ratings and reviews, ride sharing, fare splitting, multiple destinations, scheduled rides, and calendar shortcuts to the app's functionality over time.
+\subsection{Twitter}
+Jack Dorsey, Evan Williams, Biz Stone, and Noah Glass, four software developers at podcasting company Odeo, were looking for a way to save a dying company. Jack had the idea of using an SMS service to communicate current statuses. Twttr was suggested as the project's name, and they began developing a product with a single core function: sending status updates via SMS. Twttr was originally created for Odeo employees to use internally. It was well received, but there was one issue: employees were spending a lot of money on SMS messages. This prompted the founders to launch Twitter for a wider audience, and within a few months, users were able to access the app via a web interface rather than SMS. It experienced growing popularity and got 20,000 tweets published daily. Today, Twitter is a billion-dollar social network with 330 million monthly active users.
+% \section{References}
+% \begin{enumerate}
+%     \item Shankar Kumar J, Rakshith Kaushik T. R., Mahanth G.N, Sachin B. C., Vinay S. N., "Design of prosthetic finger replacements using surface EMG signal acquisition"
+%     \item Carlo J. De Luca ,Surface Electromyography: Detection and Recording ,2002 by DelSys Incorporated
+%     \item Ananda Sankar Kundu,Oishee Mazunder,Subhasis Bhaumik, “Design of Wearable ,Low Power ,Signal Supply Surface EMG Extractor Unit for Wireless Monitoring”
+% \end{enumerate}
+%%% End document
+\end{document}
+
