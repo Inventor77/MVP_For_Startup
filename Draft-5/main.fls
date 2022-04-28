@@ -1,6 +1,6 @@
-PWD /home/inventor/Downloads/19111056_Shreedutt_BEE_Term_Paper/Draft-5
+PWD /home/inventor/Downloads/19111056_Shreedutt_BEE_Term_Paper/Draft-4
 INPUT /home/inventor/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /home/inventor/Downloads/19111056_Shreedutt_BEE_Term_Paper/Draft-5/main.tex
+INPUT /home/inventor/Downloads/19111056_Shreedutt_BEE_Term_Paper/Draft-4/main.tex
 OUTPUT main.log
 INPUT /home/inventor/.miktex/texmfs/install/tex/latex/koma-script/scrartcl.cls
 INPUT /home/inventor/.miktex/texmfs/install/tex/latex/koma-script/scrartcl.cls
@@ -926,15 +926,6 @@ INPUT /home/inventor/.miktex/texmfs/install/fonts/tfm/jknappen/ec/ecsx1440.tfm
 INPUT /home/inventor/.miktex/texmfs/install/fonts/tfm/public/fourier/futrc8t.tfm
 INPUT /home/inventor/.miktex/texmfs/install/fonts/vf/public/fourier/futrc8t.vf
 INPUT /home/inventor/.miktex/texmfs/install/fonts/tfm/public/fourier/futr8r.tfm
-INPUT /home/inventor/.miktex/texmfs/install/fonts/tfm/public/fourier/fourier-alt.tfm
-INPUT /home/inventor/.miktex/texmfs/install/fonts/tfm/public/fourier/futr8t.tfm
-INPUT /home/inventor/.miktex/texmfs/install/fonts/tfm/jknappen/ec/ecss1200.tfm
-INPUT /home/inventor/.miktex/texmfs/install/fonts/tfm/jknappen/ec/ecsx1200.tfm
-INPUT /home/inventor/.miktex/texmfs/install/fonts/tfm/public/fourier/futrc8t.tfm
-INPUT /home/inventor/.miktex/texmfs/install/fonts/vf/public/fourier/futrc8t.vf
-INPUT /home/inventor/.miktex/texmfs/install/fonts/tfm/public/fourier/futr8r.tfm
-INPUT /home/inventor/.miktex/texmfs/install/fonts/tfm/public/fourier/futr8r.tfm
-INPUT /home/inventor/.miktex/texmfs/install/fonts/tfm/public/fourier/fourier-alt.tfm
 INPUT /home/inventor/.miktex/texmfs/install/fonts/tfm/public/fourier/fourier-alt.tfm
 INPUT main.aux
 INPUT ./main.out
