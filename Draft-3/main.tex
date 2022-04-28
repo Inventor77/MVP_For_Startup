@@ -1,0 +1,124 @@
+\documentclass[paper=a4, fontsize=11pt]{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage{fourier}
+
+\usepackage[english]{babel}															% English language/hyphenation
+\usepackage[protrusion=true,expansion=true]{microtype}	
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage[pdftex]{graphicx}	
+\usepackage{url}
+
+
+%%% Custom sectioning
+\usepackage{sectsty}
+\allsectionsfont{\centering \normalfont\scshape}
+
+\usepackage{tabularx}
+%%% Custom headers/footers (fancyhdr package)
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead{}											% No page header
+\fancyfoot[L]{}											% Empty 
+\fancyfoot[C]{}											% Empty
+\fancyfoot[R]{\thepage}									% Pagenumbering
+\renewcommand{\headrulewidth}{0pt}			% Remove header underlines
+\renewcommand{\footrulewidth}{0pt}				% Remove footer underlines
+\setlength{\headheight}{13.6pt}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+%%% Equation and float numbering
+\numberwithin{equation}{section}		% Equationnumbering: section.eq#
+\numberwithin{figure}{section}			% Figurenumbering: section.fig#
+\numberwithin{table}{section}				% Tablenumbering: section.tab#
+
+
+%%% Maketitle metadata
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\title{
+		%\vspace{-1in} 	
+		\usefont{OT1}{bch}{b}{n}
+		\normalfont \normalsize \textsc{National Institute Of Technology Raipur} \\ [25pt]
+		\horrule{0.5pt} \\[0.4cm]
+		\huge Minimum Viable Product  \\
+		\horrule{2pt} \\[0.5cm]
+}
+\author{
+		%\normalfont 								\normalsize
+        Shreedutt Dixit 19111056\\6th Semester, 
+        Basic Entrepreneurship\\ Biomedical Engineering Department\\	
+        Email: Shreedutt77@gmail.com
+        \normalsize
+}
+
+\date{}
+
+
+%%% Begin document
+
+\begin{document}
+\maketitle
+\begin{flushright}
+    Guided by :\\
+    Saurabh Gupta Sir
+\end{flushright}
+
+\noindent\rule{\textwidth}{1pt}
+\begin{abstract}
+
+    \begin{center}
+        \Large{\textbf{Abstract}}\\
+        
+    \end{center}
+
+    \Large { A minimum viable product (MVP) is a Lean Startup concept that emphasizes the importance of learning in the development of new products. An MVP, according to Eric Ries, is the version of a new product that allows a team to gather the most amount of verified learning about customers with the least amount of effort.\\
+    This verified knowledge comes in the form of whether or not your buyers will buy your product.
+    A crucial tenet of the MVP concept is that you create an actual product (which might be as simple as a landing page or a service that appears to be automated but is entirely manual behind the scenes) that you can give to clients and monitor their actual behavior with it. 
+    \newpage Observing what people do with a product rather than asking them what they would do is far more reliable.\\
+    The primary advantage of an MVP is that it allows you to learn about your customers' interest in your product without fully developing it. The sooner you can determine whether your product will be appealing to customers, the less time and money you will waste on a product that will not succeed in the market. }
+\end{abstract}
+
+\newpage
+\textbf{TABLE OF CONTENT}\\
+\rule{\textwidth}{1pt}
+\begin{enumerate}
+    \item Introduction
+    \item Conclusion
+\end{enumerate}
+\rule{\textwidth}{1pt}
+\newpage
+\Large
+\section{Introduction}
+An MVP (minimum viable product) is a basic, launchable version of a product that includes only the most essential features (which define its value proposition). An MVP is created with the goal of reducing time to market, attracting early adopters, and achieving product-market fit from the start.\\
+When the MVP is released, the first round of feedback is expected. Based on this feedback, the company will continue to fix bugs and add new features suggested by early adopters.
+The MVP method allows for:
+\begin{enumerate}
+    \item Making an early market entry that results in a competitive advantage.
+    \item Allowing for early testing of the concept with actual users to determine whether the product is capable of solving their problems efficiently.
+    \item Working efficiently toward the creation of a fully-fledged product that incorporates user feedback and suggestions.
+\end{enumerate}
+Scaling is a lengthy process that necessitates numerous experiments. The secret to product scale is a good start, which often means creating a minimum viable product, or MVP. Many world-famous companies, such as Dropbox and Uber, began as MVPs and grew to become multibillion-dollar enterprises while avoiding unnecessary costs and saving valuable time. They are now excellent examples of minimum viable products for validating a startup idea and creating a product that people adore.
+
+\newpage
+
+\section{Conclusion}
+
+\newpage
+
+% \section{References}
+% \begin{enumerate}
+%     \item Shankar Kumar J, Rakshith Kaushik T. R., Mahanth G.N, Sachin B. C., Vinay S. N., "Design of prosthetic finger replacements using surface EMG signal acquisition"
+%     \item Carlo J. De Luca ,Surface Electromyography: Detection and Recording ,2002 by DelSys Incorporated
+%     \item Ananda Sankar Kundu,Oishee Mazunder,Subhasis Bhaumik, “Design of Wearable ,Low Power ,Signal Supply Surface EMG Extractor Unit for Wireless Monitoring”
+% \end{enumerate}
+%%% End document
+\end{document}
+
